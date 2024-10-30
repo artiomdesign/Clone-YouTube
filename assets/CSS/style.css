@@ -1,0 +1,146 @@
+/* ! Fonts Start */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;,700;&display=swap');
+
+/* Fonts End */
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ! Sidebar Start */
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.4em 2em 2em 2em;
+    cursor: pointer;
+}
+
+.sidebar-icon p{
+    margin: 0;
+}
+
+.sidebar-icon ion-icon{
+    font-size: 1.5em;
+}
+
+/* Sidebar End */
+
+/* ! Main Start */
+
+#main{
+    width: 100%;
+}
+
+/* Main End */
+
+/*  ! Topbar Start */
+
+#topbar{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0 0 0;
+}
+
+/* Topbar End */
+
+#logo-yt{
+    height: 50%;
+}
+
+#search-wrapper{
+    display: flex;
+    height: 50%;
+}
+
+#search-btn{
+    padding: 0 0.6em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+#mic-icon{
+    margin: 0 0.5em;
+}
+
+#mic-icon ion-icon{
+    font-size: 1.3em;
+}
+
+#topbar-icons{
+    display: flex;
+}
+
+.topbar-icon ion-icon{
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+/* ! Content Start */
+
+#content{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px 60px 0px 40px;
+}
+
+.item{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: calc(33.333% - 20px);
+    
+}
+
+
+.thumbnail-img{
+
+    width: 100%;
+    height: auto;
+}
+
+.profile-info{
+
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 0;
+}
+
+.profile-img{
+
+    width: 40px;
+    height: 40px;
+}
+
+h6{
+
+    margin: 0;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+p{
+
+    margin:5px 0 0;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+
+
